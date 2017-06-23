@@ -21,7 +21,7 @@ Rearrange source elements so that it has planar layout:
 
 `[a,b,c, a,b,c, ...]` → `[a,a,a,..., b,b,b,..., c,c,c]`
 
-Source can be an _Array_ or _TypedArray_. `stride` indicates number of elements per group, ie. number of channels.
+Source can be an _Array_, _TypedArray_ or any array-like object. `stride` indicates number of elements per group, eg. in case of audio buffer it is number of channels.
 
 ## License
 
