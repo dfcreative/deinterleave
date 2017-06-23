@@ -19,7 +19,7 @@ deinterleave(array, 2)
 
 Rearrange source elements so that it has planar layout:
 
-`[a0,b0,c0, a1,b1,c1, ...]` → `[a0,a1,a2,..., b0,b1,b2,..., c0,c1,c2]`
+`[a,b,c, a,b,c, ...]` → `[a,a,a,..., b,b,b,..., c,c,c]`
 
 Source can be an _Array_ or _TypedArray_. `stride` indicates number of elements per group, ie. number of channels.
 

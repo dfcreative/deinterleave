@@ -10,6 +10,7 @@ t('2 channels', t => {
 	deinterleave(arr, 2)
 
 	t.deepEqual(arr, [0,0,0,0,0, 1,1,1,1,1])
+
 	t.end()
 })
 
