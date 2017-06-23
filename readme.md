@@ -7,11 +7,10 @@ Deinterleaves elements in an array.
 ```js
 const deinterleave = require('deinterleave')
 
-let array = [1,1,1,1,0,0,0,0]
-
+let array = [1,0,1,0,1,0,1,0]
 deinterleave(array, 2)
 
-// array is [1,0,1,0,1,0,1,0]
+// array is [1,1,1,1,0,0,0,0]
 ```
 
 ## API
