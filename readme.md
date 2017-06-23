@@ -1,4 +1,4 @@
-# deinterleave [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges)
+# deinterleave [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/dfcreative/deinterleave.svg)](https://travis-ci.org/dfcreative/deinterleave)
 
 Deinterleaves elements in an array.
 
@@ -22,7 +22,7 @@ Rearrange source elements so that it has planar layout:
 
 `[a0,b0,c0, a1,b1,c1, ...]` → `[a0,a1,a2,..., b0,b1,b2,..., c0,c1,c2]`
 
-Source can be an _Array_ or _TypedArray_. Stride indicates number of elements per block.
+Source can be an _Array_ or _TypedArray_. `stride` indicates number of elements per group, ie. number of channels.
 
 ## License
 

@@ -1,26 +1,30 @@
 {
-  "name": "unselectable",
+  "name": "deinterleave",
   "version": "1.0.0",
-  "description": "Make an element unselectable (user-select: none and so)",
+  "description": "Deinterleave interleaved array[-ish] object",
   "main": "index.js",
   "scripts": {
-    "test": "budo test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dfcreative/unselectable.git"
+    "url": "git+https://github.com/dfcreative/deinterleave.git"
   },
   "keywords": [
-    "unselectable",
-    "selectable",
-    "user-select",
-    "user-drag",
-    "selectstart"
+    "deinterleave",
+    "array",
+    "pcm",
+    "dsp",
+    "transpose",
+    "matrix"
   ],
   "author": "Dima Yv <df.creative@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dfcreative/unselectable/issues"
+    "url": "https://github.com/dfcreative/deinterleave/issues"
   },
-  "homepage": "https://github.com/dfcreative/unselectable#readme"
+  "homepage": "https://github.com/dfcreative/deinterleave#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
